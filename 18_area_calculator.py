@@ -2,6 +2,7 @@ import math
 
 def area_of_wall(Height,Width):
     coverage_per_can=5
+    # after importing math module here using ceil function for rounding UP integer.
     Num_of_cans=math.ceil((Height*Width)/coverage_per_can)
     print(f"You need {Num_of_cans} cans of Paint.")
 
